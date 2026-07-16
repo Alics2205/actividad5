@@ -14,14 +14,14 @@ public class Libro {
 
     // Constructor con parametros
     public Libro(String titulo, String autor, String isbn, int ejemplares) {
-
+//mayuscula metodo 
         this.titulo = titulo.toUpperCase();
         this.autor = autor;
         this.isbn = isbn;
         this.ejemplares = ejemplares;
     }
 
-    // Constructor copia
+ //copia
     public Libro(Libro l) {
 
         this.titulo = l.titulo;
